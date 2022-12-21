@@ -10,7 +10,10 @@ public class Main {
 		System.out.println();
 		
 		
-		Manager manager = new Manager("Murat", "Asım", "IT", 5000);
+		Manager manager = new Manager("Murat", "Asım", "IT", 5000, 12);
 		manager.showInfosMan();
+		manager.raiseSalary(100);
+		
+		
 	}
 }
